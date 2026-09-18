@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.spark_venv/
+spark_venv/
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Local data
+data/local/
+data/tmp/
+data/output/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+logs/
+*.log
+
+# Databricks
+.databricks/
+
+# Temporary files
+*.tmp
+*.temp
