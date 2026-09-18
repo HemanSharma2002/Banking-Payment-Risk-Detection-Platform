@@ -1,0 +1,20 @@
+environment: dev
+
+risk:
+  high_value_threshold: 100000
+  medium_value_threshold: 50000
+
+  velocity:
+    window_minutes: 10
+    max_transactions: 5
+
+  scoring:
+    high_value: 30
+    velocity: 25
+    unusual_location: 20
+    suspicious_merchant: 25
+
+  classification:
+    low_max_score: 29
+    medium_max_score: 59
+    high_min_score: 60
