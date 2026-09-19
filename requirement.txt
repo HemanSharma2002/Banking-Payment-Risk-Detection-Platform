@@ -4,3 +4,5 @@ pyyaml
 pytest
 pytest-cov
 python-dotenv
+faker
+hadoop-winutils

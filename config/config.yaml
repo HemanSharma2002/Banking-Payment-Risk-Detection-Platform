@@ -18,3 +18,25 @@ risk:
     low_max_score: 29
     medium_max_score: 59
     high_min_score: 60
+
+data_generation:
+  customers: 10000
+  accounts: 15000
+  merchants: 1000
+  transactions: 100000
+
+  suspicious_transaction_percentage: 5
+
+  countries:
+    - IN
+    - US
+    - GB
+    - AE
+    - SG
+
+  currencies:
+    - INR
+    - USD
+    - GBP
+    - AED
+    - SGD

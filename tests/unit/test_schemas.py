@@ -1,6 +1,7 @@
 from src.schemas.customer_schema import customer_schema
 from src.schemas.account_schema import account_schema
 from src.schemas.transaction_schema import transaction_schema
+from src.schemas.merchant_schema import merchant_schema
 
 
 def test_customer_schema():
@@ -19,3 +20,10 @@ def test_transaction_schema():
     assert amount_type.typeName() == "decimal"
     assert amount_type.precision == 18
     assert amount_type.scale == 2
+
+def test_merchant_schema():
+    assert merchant_schema["merchant_id"].dataType.typeName() == "string"
+    assert merchant_schema["merchant_name"].dataType.typeName() == "string"
+    assert merchant_schema["merchant_category"].dataType.typeName() == "string"
+    assert merchant_schema["country"].dataType.typeName() == "string"
+    assert merchant_schema["risk_level"].dataType.typeName() == "string"
