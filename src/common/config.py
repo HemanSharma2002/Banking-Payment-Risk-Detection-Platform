@@ -13,3 +13,15 @@ def load_config(config_path: str = "config/config.yaml") -> dict:
 
     with path.open("r", encoding="utf-8") as file:
         return yaml.safe_load(file)
+    
+     
+def load_risk_config(
+    config_path: str = "config/config.yaml",
+) -> dict:
+
+    path = PROJECT_ROOT / config_path
+
+    with open(path, "r", encoding="utf-8") as file:
+        config = yaml.safe_load(file)
+
+    return config["risk"]
