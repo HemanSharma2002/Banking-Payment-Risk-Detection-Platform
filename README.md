@@ -1,5 +1,3 @@
-Absolutely bro 🔥. This one should be **significantly more production-oriented than Project 1**.
-
 ## 🏦 Project 2 — Banking Payment Risk Detection Platform
 
 Let's give it a proper GitHub/recruiter-friendly name:
